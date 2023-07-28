@@ -1,3 +1,45 @@
+
+
+body {
+  background-image: linear-gradient(135deg, #dd975d, #a51515);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  /* background: linear-gradient(
+    135deg,
+    #7b8bea,
+    #ffffff,
+    #eb3f77
+  ); */
+  background-size: 300% 300%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Estilo de fuente predeterminado */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  /* Estilos para el contenedor principal */
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Otros estilos para el contenido de tu portfolio */
+
 .App {
   text-align: center;
 }
