@@ -1,12 +1,12 @@
 
 
 body {
-  background-image: linear-gradient(135deg, #dd975d, #a51515);
+  background: linear-gradient(135deg,#7beaad,#ffffff00, #3feb56);
   height: 100vh;
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  color: #fff;
+  color: #2a08e775;
   /* background: linear-gradient(
     135deg,
     #7b8bea,

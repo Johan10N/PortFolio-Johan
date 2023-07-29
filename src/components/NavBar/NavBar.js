@@ -11,7 +11,7 @@ const NavBar = () => {
     <div style={{ position: "fixed", top: 0, left: 0, right: 0 }}>
       <S.ContainerNavBar>
         <S.ContainerLogo>
-          <S.ImageLogo src="/img/foto.jpg" alt="Logo Johan" />
+          <S.ImageLogo src="/img/foto.jpg" alt="Logo Johan"/>
           <div>
             <h1>Johan Navarro Rodríguez</h1>
             <h2>Installation and maintenance technician</h2>
