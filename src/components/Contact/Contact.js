@@ -27,11 +27,20 @@ const Contact = () => {
             setEmptyInputs(true);
         }
         else{
-            emailjs.sendForm(
-                'service_tu4xqss',//AQUí va su ID DE SERVICIO EMAILJS
-                'template_cmzf7sm',//AQUÍ VA EL TEMPLATE ID
-                form.current,
-                'fxhZBOaHsRjcUv94j'//AQUÍ VA LA PUBLIC KEY
+
+        // Replace template variables with actual data
+        const emailParams = {
+           to_name: contactDates.name,
+           from_name: contactDates.email,
+           message: contactDates.message,
+         };
+
+            // Send the email using EmailJS with the updated template variables
+            emailjs.send(
+                'service_zzac12n',//AQUí va su ID DE SERVICIO EMAILJS
+                'template_n7r0w91',//AQUÍ VA EL TEMPLATE ID
+                emailParams,
+                'bcXXgxRli8Do5WVyG'//AQUÍ VA LA PUBLIC KEY
             ).then(
                 (result) =>{
                     setsuccessSendForm(true);

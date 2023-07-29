@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./AboutMe.styles";
 import logoGithub from "../../svg/github.svg";
 import logoLinkeind from "../../svg/linkedin.svg";
-import logoYoutube from "../../svg/youtube.svg";
+//import logoYoutube from "../../svg/youtube.svg";
 import foto from "../../images/projects/foto.jpg";
 
 const AboutMe = () => {
@@ -17,11 +17,11 @@ const AboutMe = () => {
       link: "https://www.linkedin.com/in/johan-navarro-rodriguez-853b94285/",
       logo: logoLinkeind,
     },
-    {
+    /*{
        name: "Youtube",
        link: "https://www.youtube.com/channel/UC2Gv4AvSJOPFQ6pjGFk7U2g",
        logo: logoYoutube,
-    },
+    },*/
   ];
 
   return (
@@ -36,7 +36,8 @@ const AboutMe = () => {
           <S.DescriptionText>
             <p>
               ¡Hola! Soy técnico de sistemas apasionado por el mundo de
-              las Telecomunicaciones y con más de 8 años de experiencia en el campo.
+              las Telecomunicaciones y con más de 8 años de experiencia en el campo del
+              mantenimiento e instalaciones de redes de fibra ópticas.
               Soy una persona proactiva y entusiasta, siempre buscando aprender cosas
               nuevas y enfrentar nuevos desafíos en mi carrera profesional.
             </p>
