@@ -39,7 +39,7 @@ export const projectsPortfolio = [
     description:
       "Application of a landing page created with React JS and React Bootstrap to make a form with dynamic fields.",
     repository: "https://github.com/Johan10N/Dynamic-Form.git",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    website: "https://dynamic-form-flame.vercel.app/", //ustedes deben colocar aquí el link del enlace público de netlify
   },
 
   {
@@ -52,7 +52,7 @@ export const projectsPortfolio = [
     description:
       "Application created with React JS and CSS to make a request an external API of Rick & Morty.",
     repository: "https://github.com/Johan10N/Rick_and_Morty.git",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    website: "https://rick-and-morty-sigma-weld.vercel.app/", //ustedes deben colocar aquí el link del enlace público de netlify
   },
 
   {
@@ -65,7 +65,7 @@ export const projectsPortfolio = [
     description:
       "Application created with React JS and Styled Components to make a request an external API of Simpsons.",
     repository: "https://github.com/Johan10N/Simpsons.git",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    website: "https://simpsons-mu.vercel.app/", //ustedes deben colocar aquí el link del enlace público de netlify
   },
   
 ];
