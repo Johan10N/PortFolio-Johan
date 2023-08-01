@@ -1,9 +1,9 @@
 body {
   background: linear-gradient(
     135deg,
+    #FF0000,
     #52EA3A,
     #F06345,
-    #FF0000
     );
  /* height: 100vh;
   justify-content: center;
